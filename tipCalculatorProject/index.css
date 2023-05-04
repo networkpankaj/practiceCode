@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #252422;
+
+}
+
+.calculator {
+    background-color: #fffcf2;
+    padding: 2rem;
+    border-radius: 22px;
+    margin: 4rem 0;
+    width: 400px;
+
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &__label {
+        flex: 0 0 20%;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+
+    
+}
