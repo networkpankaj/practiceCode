@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+.container {
+    text-align: center;
+}
+.container h2 {
+    background: var(black);
+    color: var(white);
+    padding: 1rem;
+    border-radius: var(--radius);
+    margin-bottom: 2.5rem; 
+}
